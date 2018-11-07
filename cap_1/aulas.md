@@ -106,9 +106,12 @@ kaiokaiokaio
 
 Quase tudo em python é tratado com objeto e todo objeto possue funções vamos ver algumas importantes:
 
-nome função | utilizade | exemplo
-`print()` | permite exibir dados na tela | print('Hello world!')
-`len()` | conta o número de caracteres | len('kaio') --> 4
-`str()` | transforma um valor em string | str(4) --> '4'
-`int()` | transforma um número em inteiro | int('4') --> 4
-`float()` | transforma um número em float | float(4) --> 4.0
+nome função | utilizade | exemplo | saída
+:---:|:---:|:---:|:---:|
+`print()` | permite exibir dados na tela | print('Hello world!') | Hello world!
+`len()` | conta o número de caracteres | len('kaio') | 4
+`str()` | transforma um valor em string | str(4) | '4'
+`int()` | transforma um número em inteiro | int('4') | 4
+`float()` | transforma um número em float | float(4) | 4.0
+
+---
