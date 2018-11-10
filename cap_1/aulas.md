@@ -28,16 +28,14 @@ Maior Prioridade | Simbolo | Nome
 
 No python basicamente existem três tipo de dados `int`, `float` e `string`.
 
-O valor `int` são número inteiros que não possuem `.` ou `,`;
-Valor 'float' são valor que possuem `.` ou `,`;
-Já as string como o nome já diz são basicamente texto puro.
+O valor `int` são número inteiros que não possuem `.` ou `,`, já os valores
+'float' são valor que possuem `.` ou `,`, as string como o nome já diz são basicamente texto puro.
 
 ---
 
-## Declaração de variavel
+## Declaração de variável
 
-Para declarar uma váriavel em python basta definir um nome de acordo com os padrões da area de TI, seguido de `=` seguido do valor segue exemplo:
-
+Para declarar uma variável em python basta definir um nome de acordo com os padrões, seguido de ** apenas um ** `=` seguido do valor segue exemplo:
 
 ```
 nome = 'Kaio Cesar'
@@ -47,12 +45,14 @@ nome = 'Kaio Cesar'
 
 ## Saída de dados
 
-Para exibir dados em python você poderá utilizar a função `print()` que a forma mais simples de se exibir dados segue exemplo:
+Para exibir dados em python você poderá utilizar a função `print()` que a forma mais simples de se exibir dados, segue exemplo:
 
 
 ```
+# Definindo uma variável do tipo string com valor 'kaio cesar'
 nome = 'Kaio Cesar'
 
+# Exibindo o valor da variável nome
 print(nome)
 
 # saída
@@ -65,9 +65,9 @@ kaio Cesar
 
 --
 
-## Contatenação de strings
+## Concatenação de strings
 
-Exitem algumas forma de contatenar uma saída no python com `,` ou `+`, qual utilizar depende de cada caso segue alguma exemplos
+Exitem algumas forma de concatenar uma saída no python com `,` ou `+`, qual utilizar depende de cada caso segue alguma exemplos
 
 ```
 nome = "Kaio Cesar"
@@ -85,7 +85,7 @@ print('Seu nome é ', nome, 'e você tem ' , idade)
 > Dica: um regrinha que pode ser utilizada é sempre contatenar apenas string com `+`.
 
 
-> Dica: Existe um outro operador que pode ser utilizado que é o `*` seguido de um numero, ele basicamente multiplica a string anterior a ele exemplo:
+> Extra: Existe um outro operador que pode ser utilizado que é o `*` seguido de um numero, ele basicamente multiplica a string anterior não é bem uma forma de concatenação, mas é muito útil  a ele exemplo:
 
 
 ```
@@ -99,9 +99,9 @@ kaiokaiokaio
 ```
 ---
 
-## Funções basicas
+## Funções básicas
 
-Quase tudo em python é tratado com objeto e todo objeto possue funções vamos ver algumas importantes:
+Quase tudo em python é tratado com objeto e todo objeto possui funções vamos ver algumas importantes:
 
 nome função | utilizade | exemplo | saída
 :---:|:---:|:---:|:---:|
