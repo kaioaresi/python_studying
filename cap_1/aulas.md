@@ -121,3 +121,34 @@ nome função | utilizade | exemplo | saída
 `float()` | transforma um número em float | float(4) | 4.0
 
 ---
+
+
+# Resumo
+
+O que aprendi neste primeiro nível:
+
+- Como declarar um variável;
+- Tipo de dados comuns;
+- Como receber e exibir dados;
+- Funções importantes.
+
+---
+
+# Exercicios
+
+1. Crie um programa que receba dois valores sendo um do tipo string e outro do tipo int e exiba na tela.
+
+2. Crie um programa que receba dous números e some ambos e exiba o resultado ao usuário.
+
+3. Crie um programa que apenas exiba um menu com cinco opções, segue exemplo:
+
+
+```
+##### Menu de opções ######
+1 - Pizza
+2 - Açai
+3 - Pão de queijo
+4 - Suco de frutas
+5 - Cerveja
+##########################
+```
