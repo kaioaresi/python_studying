@@ -1,19 +1,16 @@
-# Cap. 1
-Criada por: Guido van Rossum
-Ano de criação: 1989
-Lançada em: 1991
-Tipo da linguagem: alto nível
-Tipagem: dinâmica
-Identação por escopo
-Curiosidade: seu nome é devido ao grupo de humor britanico `Monty Python`.
+# Python
+
+A linguagem python foi criado por Guido van Rossum em meados de 1989 e lançada oficialmente em 1991. Python é uma linguagem de alto nível de tipagens dinâmica, sua principal característica na minha opinião é a curva de aprendizado. Uma curiosidade da linguagem é que seu nome foi escolhido devido ao famoso grupo de humor britânico `Monty Python` e não pela cobra.
+
 
 ---
-## Operadores matematicos
 
-__Ordem de predeceção__
+## Operadores matemáticos
+
+__Ordem de predecessão__
 
 
-A ordem de predeceção é a mesma utilizada na matematica, em caso de operadores com mesmo nível deve-se **sempre realizar a operação da esquerda para a direita** salvo quando utilizar parenteses, pois ele sobrepoem todos os demais
+A ordem de predecessão é a mesma utilizada na matemática, em caso de operadores com mesmo nível deve-se **sempre realizar a operação da esquerda para a direita** salvo quando utilizar parenteses, pois ele sobrepõem todos os demais
 
 Maior Prioridade | Simbolo | Nome
 :---:|:---:|:---:|
