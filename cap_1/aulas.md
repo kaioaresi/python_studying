@@ -59,11 +59,20 @@ print(nome)
 kaio Cesar
 ```
 
+## Entrada de dados
+
+Para captura uma entrada de dado, você pode utilizar a função `input`, segue exemplo:
 
 
+```
+# Solicitando ao usuário que digite seu nome e guardando esse valor em uma variável chamada nome e convertendo esse valor para string.
+nome = str(input('Digite seu nome: '))
+
+print('Seu nome é:', nome)
+```
 
 
---
+---
 
 ## Concatenação de strings
 
