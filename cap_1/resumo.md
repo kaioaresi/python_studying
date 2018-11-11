@@ -4,7 +4,6 @@ A linguagem python foi criado por Guido van Rossum em meados de 1989 e lançada 
 
 
 ---
-
 ## Operadores matemáticos
 
 __Ordem de predecessão__
@@ -39,6 +38,36 @@ Para declarar uma variável em python basta definir um nome de acordo com os pad
 
 ```
 nome = 'Kaio Cesar'
+```
+
+---
+## Comentário
+
+
+Quando se está aprendendo algo é sempre bom realizar anotações ou comentário com informações relevantes para facilita o entendimento posterior, na programação isso não é diferente que abaixo exemplo de como realizar comentários de uma linha ou de várias.
+
+### Comentário básico de um linha
+
+Deve-se colocar apenas um  `#` que tudo a direita será desconsiderado.
+
+```
+# Esse é um exemplo de comentário
+3 + 3
+
+# saída
+6
+```
+### Comentário em bloco
+
+Deve-se utilizar três sinais de `'''` para iniciar e fechar o comentário em bloco
+
+```
+'''
+Esse bloco de comentários será
+desconsiderado no seu código.
+'''
+3 + 2
+
 ```
 
 ---
@@ -141,7 +170,7 @@ O que aprendi neste primeiro nível:
 2. Crie um programa que receba dous números e some ambos e exiba o resultado ao usuário.
 
 3. Crie um programa que apenas exiba um menu com cinco opções, segue exemplo:
- 
+
 
 ```
 ##### Menu de opções ######
