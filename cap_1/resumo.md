@@ -161,7 +161,7 @@ idade = 28
 print('Seu nome é {} e você possui {}'.format(nome, idade))
 ```
 
-__F{}__
+__F()__
 
 Esse a forma atualizada para realizar concatenação mais atualizada, podendo ser utilizada na versão 3.6+ do python, na linha opinião é a mais clara de se utilizar. para utilizar você deve adciona um `f` antes do aspas sendo da função print e ao declara o `{}` você coloca o nome da variável no local desejado.
 
