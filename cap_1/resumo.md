@@ -103,7 +103,7 @@ print('Seu nome é:', nome)
 
 ---
 
-## Concatenação de strings
+## Concatenação de dados
 
 Exitem algumas forma de concatenar uma saída no python com `,` ou `+`, qual utilizar depende de cada caso segue alguma exemplos
 
@@ -135,6 +135,45 @@ print('kaio' * 3)
 
 kaiokaiokaio
 ```
+
+As forma de concatenação mais simples apresentadas acima para pequenas mensagens funciona muito bem, porém a medida que as mensagem ficam maior fica muito ruim de escreve-las. Agora vamos aprender como exibir dados de forma mais polida digamos assim.
+
+__%S__
+
+Esse é um mode de realizar concatenação muito utilizado na versão 2.x, mas ainda funciona na versão 3.x, na posição da variável você declara um `%s` e declara as variáveis na posição correta, segue abaixo como utilizar.
+
+```
+nome = 'Kaio Cesar'
+
+idade = 28
+
+print('Seu nome é %s e você tem %s anos' % (nome,idade))
+```
+
+__Format()__
+
+A função formate permite realizar a concatenação da um mensagem de forma mais organização, a mesma pode ser utilizada apenas na versão 3.x +, seu funcionamento consistem em colocar um `{}` no lugar ao qual será subsistido a variável e depois devemos declarar a variável na ordem em que queremos que seja exibida, separados por virgula.
+
+```
+nome = 'Kaio Cesar'
+idade = 28
+
+print('Seu nome é {} e você possui {}'.format(nome, idade))
+```
+
+__F{}__
+
+Esse a forma atualizada para realizar concatenação mais atualizada, podendo ser utilizada na versão 3.6+ do python, na linha opinião é a mais clara de se utilizar. para utilizar você deve adciona um `f` antes do aspas sendo da função print e ao declara o `{}` você coloca o nome da variável no local desejado.
+
+
+```
+nome = 'Kaio Cesar'
+idade = 27
+
+print(f'Seu nome é {nome} e você tem {idade} anos')
+
+```
+
 ---
 
 ## Funções básicas
