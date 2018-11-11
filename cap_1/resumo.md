@@ -44,9 +44,9 @@ nome = 'Kaio Cesar'
 ## Comentário
 
 
-Quando se está aprendendo algo é sempre bom realizar anotações ou comentário com informações relevantes para facilita o entendimento posterior, na programação isso não é diferente que abaixo exemplo de como realizar comentários de uma linha ou de várias.
+Quando se está aprendendo algo é sempre bom realizar anotações ou comentário com informações relevantes para facilita o entendimento posterior, na programação isso não é diferente segue abaixo exemplos de como realizar comentários de linhas ou blocos
 
-### Comentário básico de um linha
+### Comentário básico
 
 Deve-se colocar apenas um  `#` que tudo a direita será desconsiderado.
 
